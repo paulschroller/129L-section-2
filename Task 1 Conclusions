@@ -1,0 +1,6 @@
+Task 1 Part B Conclusions:
+Jarvis march and monotone chain are almost exactly the same as each other, graham scan is taking longer than the two usually. they take about 0.008-0.015 seconds to complete the n=1000 point cloud. Sometimes some of the algorithms will take a very long time on smaller n values like 50 or 100, perhaps there is something wrong with my sorting algorithms. I believe this same issue also causes it to sometimes get stuck calculating for a very long time and I have to stop the program.
+
+Part C: Changing the range of the point cloud to be from -5 to 5 does not appear to affect the runtime
+
+Part D: Couldn't include data for Jarvis runtimes, it would always get stuck. Must be something wrong with my Jarvis algorithm. The graham and monotone runtime histograms are both mostly clustered around 0.0002 seconds, with a very quick dropoff into the next bin around 0.0004 seconds, but there are often a few points in much higher bins such as 0.01. graham seems to tend to be slightly longer than jarvis on average, but not always.
